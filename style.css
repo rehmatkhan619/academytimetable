@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+.logo{
+    padding: 0px 10px;
+}
+button{
+    margin: 7px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+table{
+    width: 65%;
+     margin-left: 230px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 300px;
+    margin-top: 20px;
+}
+th,tr,td{
+    border: 1px solid black;
+    width: 12.5%;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(133, 136, 139);
+}
+
